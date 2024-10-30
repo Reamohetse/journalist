@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Reitumetse Mants'o Makhathe</h1>
+        <p><marquee direction="left">Your go-to web journalist for multimedia content.</marquee></p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="home">
+        <section>
+            <h2>Welcome to My Portfolio.</h2>
+            <p>My name is Reitumetse Makhathe, a web journalist with expertise in creating engaging multimedia content. I offer services in podcast production, video editing, and live broadcasting. I aim to inform and entertain my audience through compelling storytelling. Based in Mafeteng, I collaborate with clients worldwide. I've written for a number of magazines and newspapers - both local and international, print and digital. I've also launched and edited magazines, commissioned other creatives, managed teams, budgets and publishing schedules. I love to write about a variety of subjects but have a special interest in talking to individuals, brands and organisations who are making a positive impact on people and the planet. I have about five years of working experience. After finishing my MA Journalism at the university of Free State, South Africa, I worked at a local broadcaster for a while. I learned a lot and got a lot of opportunities 'in the field', but I realised I wanted more freedom. That's why I started freelancing. I'm especially interested in nature, sustainability, social issues, and travel. If you're interested in working with me, don't hesitate to shoot me a message.</p>
+        </section>
+    </div>
+
+    <div id="about">
+        <section>
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-image-wrapper">
+                    <img src="images/mantsho.jpg" alt="images" class="about-image" />
+                </div>
+                <p>Welcome! I’m Reitumetse Makhathe, a web journalist dedicated to uncovering stories that matter and presenting them in a way that engages, informs, and resonates with audiences worldwide. My journey began with a fascination for storytelling, whether through the written word, visuals, or audio. Early in my career, I worked as a traditional journalist, focusing on news articles and editorials. But as the digital landscape evolved, I felt drawn to explore new media and embrace the power of multimedia storytelling. Over the years, I’ve honed my skills in various areas of digital journalism, from podcast production and video editing to live-streaming events and social media storytelling. I believe that today’s stories deserve a multi-dimensional approach, where every medium is leveraged to its fullest potential, whether it’s a podcast that dives deep into trending topics, a video breaking down complex issues, or a live broadcast keeping viewers informed in real-time. One of my core motivations is to craft content that’s not just informative but also thought-provoking.</p>
+            </div>
+        </section>
+    </div>
+
+    <div id="services">
+        <section class="services-section">
+            <h2>Services Offered</h2>
+            <div class="services-row">
+                <div class="service-item">
+                    <img src="images/Podcast.jpg" alt="Podcast Production">
+                    <h3>Podcast Production</h3>
+                </div>
+                <div class="service-item">
+                    <img src="images/Edit.png" alt="Video Editing">
+                    <h3>Video Editing</h3>
+                </div>
+                <div class="service-item">
+                    <img src="images/Live.png" alt="Live Streaming">
+                    <h3>Live Streaming</h3>
+                </div>
+                <div class="service-item">
+                    <img src="images/Content.png" alt="Content Strategy">
+                    <h3>Content Strategy</h3>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="portfolio">
+        <section class="portfolio-section">
+            <h2>Showcase of My Work</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="images/Project1.jpg" alt="Project 1">
+                    <h3>Podcast Episode: Exploring Technology</h3>
+                    <p>A deep dive into the latest trends in technology. <a href="#" onclick="playAudio()">Listen here</a></p>
+                    <!-- Audio element for the podcast -->
+                <audio id="podcastAudio" src="audio/technology_poem_performed_by_david_bowden_at_las_vegas_summit_mp3_67350.mp3" preload="auto"></audio>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/Project2.png" alt="Project 2">
+                    <h3>Video: How to Create Engaging Content</h3>
+                    <p>Tips for making your content stand out. <a href="https://youtu.be/BhbP-hc_IfE">Watch here</a>.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/Project3.jpg" alt="Project 3">
+                    <h3>Live Show: Current Events Roundup</h3>
+                    <p>Discussions on the biggest news stories. <a href="https://youtu.be/7I6k5rsSfzY">Watch the recap</a>.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/Project4.png" alt="Project 4">
+                    <h3>Article Series: Innovations in Education</h3>
+                    <p>An in-depth look at how technology is changing classrooms. <a href="https://www.lesotho-info.co.za/country/articles/all">Read here</a>.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="contact">
+        <section class="contact-section">
+            <h2>Get in Touch</h2>
+    
+            <div class="contact-container">
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h3>Send Us an Email</h3>
+                    <form action="https://example.com/send-email" method="POST">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+    
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+    
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+    
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+    
+                <!-- Contact Details -->
+                <div class="contact-details">
+                    <h3>My Contacts</h3>
+                    <p>Feel free to reach out through the following platforms:</p>
+                    <ul>
+                        <li><strong>Email:</strong> <a href="mailto:your.email@example.com">mantsomakhathe759@gmail.com</a></li>
+                        <li><strong>Phone:</strong> +266 5879 6778</li>
+                        <li><strong>Location:</strong> Mafeteng</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <!-- Link the JavaScript file -->
+    <script src="scripts.js"></script>
+</body>
+</html>
